@@ -15,4 +15,5 @@ urlpatterns = [
     path('<int:id>/delete/', product_delete_view, name='delete'),
     path('', product_list_view, name='list'),
 
+
 ]
